@@ -59,6 +59,7 @@ export default function BasicForm() {
             </div>
 
             <div className="formcarry-block">
+                {error && <p className="error-message">{error}</p>}
                 <button type="submit">Send</button>
             </div>
         </form>
