@@ -35,7 +35,7 @@ export default function Dashboards() {
                 <div className={`grid lg:grid-cols-2 gap-10 lg:gap-6`}>
                     <div className={`relative`}>
                         <div
-                            className={`absolute w-[600px] h-[600px] blur-3xl bg-gray-900 rounded-full z-10 right-0 inset-y-0`}>
+                            className={`absolute w-[600px] h-[600px] blur-3xl will-change-auto bg-gray-900 rounded-full z-10 right-0 inset-y-0`}>
 
                         </div>
                         <div className={`relative z-20`}>
@@ -48,7 +48,7 @@ export default function Dashboards() {
                             </p>
                             <div className={`mt-6 relative inline-flex`}>
                                 <div
-                                    className={`hidden lg:block absolute w-[80px] h-[80px] blur-3xl bg-blue-500 rounded-full z-[9] -left-9`}>
+                                    className={`hidden lg:block absolute w-[80px] h-[80px] blur-3xl will-change-auto bg-blue-500 rounded-full z-[9] -left-9`}>
 
                                 </div>
                                 <div className={`relative z-20`} onClick={toggleTheme}>
@@ -104,11 +104,11 @@ export default function Dashboards() {
                             />
                         </div>
                         <div
-                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl bg-blue-500 rounded-full z-10 right-0 inset-y-0`}>
+                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl will-change-auto bg-blue-500 rounded-full z-10 right-0 inset-y-0`}>
 
                         </div>
                         <div
-                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl bg-blue-500 opacity-25 rounded-full z-30 right-24 inset-y-0`}>
+                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl will-change-auto bg-blue-500 opacity-25 rounded-full z-30 right-24 inset-y-0`}>
 
                         </div>
                     </div>
@@ -159,11 +159,11 @@ export default function Dashboards() {
                 />
             </div>
             <div
-                className={`hidden lg:block absolute w-[700px] h-[700px] blur-3xl bg-blue-500 rounded-full z-[9] -right-6 inset-y-0`}>
+                className={`hidden lg:block absolute w-[700px] h-[700px] blur-3xl will-change-auto bg-blue-500 rounded-full z-[9] -right-6 inset-y-0`}>
 
             </div>
             <div
-                className={`hidden lg:block absolute w-[600px] h-[600px] blur-3xl bg-blue-500 opacity-25 rounded-full z-[29] right-24 inset-y-0`}>
+                className={`hidden lg:block absolute w-[600px] h-[600px] blur-3xl will-change-auto bg-blue-500 opacity-25 rounded-full z-[29] right-24 inset-y-0`}>
 
             </div>
         </section>
