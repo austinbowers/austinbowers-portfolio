@@ -105,12 +105,12 @@ export default function Dashboards() {
                         </div>
                         <div
                             style={{backfaceVisibility: `hidden`}}
-                            className={`lg:hidden absolute w-[600px] h-[600px] blur-2xl will-change-auto bg-blue-500 rounded-full z-10 right-0 inset-y-0`}>
+                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl will-change-auto bg-blue-500 rounded-full z-[15] right-0 inset-y-0`}>
 
                         </div>
                         <div
                             style={{backfaceVisibility: `hidden`}}
-                            className={`lg:hidden absolute w-[600px] h-[600px] blur-2xl will-change-auto bg-blue-500 opacity-25 rounded-full z-30 right-24 inset-y-0`}>
+                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl will-change-auto bg-blue-500 opacity-25 rounded-full z-[35] right-24 inset-y-0`}>
 
                         </div>
                     </div>
