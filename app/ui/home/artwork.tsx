@@ -9,10 +9,10 @@ export default function Dashboards() {
     const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
+        setScrollY(window.scrollY);
+
         const handleScroll = () => {
-            if(window.scrollY < 5000) {
-                setScrollY(window.scrollY);
-            }
+            setScrollY(window.scrollY);
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -23,7 +23,7 @@ export default function Dashboards() {
     }, []);
 
     return (
-        <section id="artwork" className={`relative overflow-visible py-24 lg:py-48 px-6 z-50`}>
+        <section id="artwork" className={`relative overflow-visible pt-24 pb-16 lg:pt-48 lg:pb-24 px-6 z-50`}>
             <div className={`max-w-screen-xl mx-auto relative z-50`}>
                 <div className={`grid lg:grid-cols-2 gap-16 lg:gap-6 lg:min-h-[600px]`}>
                     <div className={`relative`}>
@@ -94,7 +94,7 @@ export default function Dashboards() {
             </div>
             <div className={`hidden lg:block`}>
                 <div
-                    style={{transform: `translateY(${scrollY / -20}px)`}}
+                    style={{transform: `translateY(${scrollY / -50}px)`}}
                     className={`absolute z-10 right-[10%] top-0`}>
                     <Image
                         src="/images/album_3.png"
@@ -105,7 +105,7 @@ export default function Dashboards() {
                     />
                 </div>
                 <div
-                    style={{transform: `translateY(${scrollY / -14}px)`}}
+                    style={{transform: `translateY(${scrollY / -30}px)`}}
                     className={`absolute z-30 right-[20%] top-40 inset-y-0`}>
                     <Image
                         src={`/images/album_2.png`}
@@ -116,7 +116,7 @@ export default function Dashboards() {
                     />
                 </div>
                 <div
-                    style={{transform: `translateY(${scrollY / -12}px)`}}
+                    style={{transform: `translateY(${scrollY / -20}px)`}}
                     className={`absolute z-50 right-[5%] top-80`}>
                     <Image
                         src="/images/album_1.png"

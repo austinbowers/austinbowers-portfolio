@@ -8,6 +8,8 @@ export default function Websites() {
     const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
+        setScrollY(window.scrollY);
+
         const handleScroll = () => {
             if(window.scrollY < 1900) {
                 setScrollY(window.scrollY);

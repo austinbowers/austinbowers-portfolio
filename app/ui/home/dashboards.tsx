@@ -16,6 +16,8 @@ export default function Dashboards() {
     const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
+        setScrollY(window.scrollY);
+
         const handleScroll = () => {
             if(window.scrollY < 1200) {
                 setScrollY(window.scrollY);
