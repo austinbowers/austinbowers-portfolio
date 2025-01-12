@@ -17,7 +17,7 @@ export default function Dashboards() {
 
     useEffect(() => {
         const handleScroll = () => {
-            if(window.scrollY < 900) {
+            if(window.scrollY < 1200) {
                 setScrollY(window.scrollY);
             }
         };
@@ -31,11 +31,11 @@ export default function Dashboards() {
 
     return (
         <section id="dashboards" className={`relative overflow-visible py-24 lg:py-48 px-6`}>
-            <div className={`max-w-screen-xl mx-auto relative z-50 h-[600px]`}>
-                <div className={`grid lg:grid-cols-2 gap-10 lg:gap-6`}>
+            <div className={`max-w-screen-xl mx-auto relative z-50`}>
+                <div className={`grid lg:grid-cols-2 gap-16 lg:gap-6 lg:min-h-[600px]`}>
                     <div className={`relative`}>
                         <div
-                            className={`absolute w-[600px] h-[600px] blur-3xl safari-blur-fix will-change-auto bg-gray-900 rounded-full z-10 right-0 inset-y-0`}>
+                            className={`absolute w-[600px] h-[300px] blur-3xl safari-blur-fix will-change-auto bg-gray-900 rounded-full z-10 right-0 inset-y-0`}>
 
                         </div>
                         <div className={`relative z-20`}>
@@ -57,7 +57,7 @@ export default function Dashboards() {
                             </div>
                         </div>
                     </div>
-                    <div className={`relative lg:hidden h-[600px]`}>
+                    <div className={`relative lg:hidden min-h-[400px] md:min-h-[600px]`}>
                         <div
                             style={{transform: `translateY(${scrollY /-25}px)`}}
                             className={`absolute z-50 -right-32 inset-y-0  scale-[1.001]`}>
@@ -104,7 +104,7 @@ export default function Dashboards() {
                             />
                         </div>
                         <div
-                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl safari-blur-fix will-change-auto bg-blue-500 rounded-full z-[15] right-0 inset-y-0`}>
+                            className={`lg:hidden absolute w-[600px] h-[350px] blur-3xl safari-blur-fix will-change-auto bg-blue-500 rounded-full z-[15] right-0 inset-y-0`}>
 
                         </div>
                         <div
