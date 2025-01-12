@@ -22,7 +22,7 @@ export default function Websites() {
     }, []);
 
     return (
-        <section id="dashboards" className={`relative overflow-visible py-24 lg:py-48 px-6`}>
+        <section id="websites" className={`relative overflow-visible py-24 lg:py-48 px-6`}>
             <div className={`max-w-screen-xl mx-auto relative z-50`}>
                 <div className={`grid lg:grid-cols-2 gap-16 lg:gap-6 lg:min-h-[400px]`}>
                     <div className={`hidden lg:block`}></div>
