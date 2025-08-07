@@ -25,8 +25,8 @@ export default function Hero() {
                 <div className="flex items-center mb-8">
                     <div className="absolute top-10 sm:top-0 lg:-top-10 right-4 w-[100px] h-[200px] sm:w-[225px] sm:h-[300px] lg:w-[300] lg:h-[375px] inline-flex items-center justify-center bg-slate-900">
                         <img
-                            src="/images/self-image.jpg"
-                            className="w-full h-full object-center object-cover relative z-20 filter grayscale mix-blend-color-dodge"
+                            src="/images/portrait_blue.jpg"
+                            className="w-full h-full object-center object-cover relative z-20"
 
                             alt="Austin Bowers avatar"
                         />
