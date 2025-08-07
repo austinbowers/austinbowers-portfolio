@@ -73,7 +73,7 @@ export default function Websites() {
                             />
                         </div>
                         <div
-                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl safari-blur-fix will-change-auto bg-blue-500 rounded-full z-[15] left-0 inset-y-0`}>
+                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl bg-gradient-to-r from-orange-500 to-blue-500 text-transparent bg-[length:100%_100%] animate-gradient-flow rounded-full z-[15] left-0 inset-y-0`}>
 
                         </div>
                         <div
@@ -106,11 +106,11 @@ export default function Websites() {
                 />
             </div>
             <div
-                className={`hidden lg:block absolute w-[700px] h-[700px] blur-3xl safari-blur-fix will-change-auto bg-blue-500 rounded-full z-[9] -left-6 inset-y-0`}>
+                className={`hidden lg:block absolute w-[700px] h-[700px] blur-3xl bg-gradient-to-r from-orange-500 to-blue-500 text-transparent bg-[length:100%_100%] animate-gradient-flow rounded-full z-[9] -left-6 inset-y-0`}>
 
             </div>
             <div
-                className={`hidden lg:block absolute w-[600px] h-[600px] blur-3xl safari-blur-fix will-change-auto bg-blue-500 opacity-25 rounded-full z-[29] left-24 inset-y-0`}>
+                className={`hidden lg:block absolute w-[600px] h-[600px] blur-3xl bg-gradient-to-r from-orange-500 to-blue-500 text-transparent bg-[length:100%_100%] animate-gradient-flow opacity-25 rounded-full z-[29] left-24 inset-y-0`}>
 
             </div>
         </section>

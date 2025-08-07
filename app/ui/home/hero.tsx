@@ -19,32 +19,45 @@ export default function Hero() {
     }, []);
 
     return (
-        <section id="hero" className="flex items-center justify-center h-screen px-6">
+        <section id="hero" className="flex items-center justify-center h-screen min-h-[700px] px-6">
             <div
-                className="text-gray-200 text-center max-w-screen-md mx-auto relative z-30"
+                className="text-gray-200 max-w-screen-md mx-auto relative z-30"
             >
-                <div className="flex justify-center mb-8">
-                    <div className="relative">
-                        <Image
-                            src="/images/self-image.jpg"
-                            className="rounded-full border-2 border-blue-500 relative z-20"
-                            width={100}
-                            height={100}
-                            alt="Austin Bowers avatar"
-                        />
-                    </div>
-                </div>
-                <h1
-                    className="h1 mb-4"
-                >
-                    Full Stack Web Developer
+                {/*<div className="flex items-center mb-8">*/}
+                {/*    <div className="relative w-[80px] h-[80px] lg:w-[120px] lg:h-[120px] inline-flex items-center justify-center">*/}
+                {/*        <img*/}
+                {/*            src="/images/self-image.jpg"*/}
+                {/*            className="rounded-full w-full h-full object-center object-cover relative z-20"*/}
+
+                {/*            alt="Austin Bowers avatar"*/}
+                {/*        />*/}
+                {/*        <div className="z-10 w-[104%] h-[104%] absolute rounded-full bg-gradient-to-r from-blue-500 to-blue-200 text-transparent bg-[length:200%_200%] animate-gradient-flow"></div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+                <h1 className="h1 mb-6">
+                    <span
+                        className="bg-gradient-to-r from-purple-500 to-orange-300 text-transparent bg-clip-text bg-[length:200%_100%] animate-gradient-flow">
+                        Designer.
+                        <br/>
+                    </span>
+                    <span
+                        className="bg-gradient-to-r from-blue-500 to-blue-200 text-transparent bg-clip-text bg-[length:100%_200%] animate-gradient-flow">
+                        Developer.
+                        </span>
+                    <span
+                        className="bg-gradient-to-r from-blue-500 to-purple-500  text-transparent bg-clip-text bg-[length:200%_200%] animate-gradient-flow">
+                        <br/>
+                        Creator.
+                    </span>
                 </h1>
-                <p className="paragraph text-center mb-8 lg:mb-10">
-                    Hi, my name is <u className={`decoration-blue-500 text-white underline-offset-4 font-medium`}>Austin Bowers</u>. I have over six years of experience designing and developing user interfaces, web pages, admin dashboards, and more in a multi-dimensional business environment, as well as experience working in a freelance environment creating websites and media for artists and small businesses.
+                <p className="paragraph mb-12 lg:mb-16">
+                    Hi, my name is <span
+                    className={`bg-gradient-to-r from-blue-500 to-blue-200 text-transparent bg-clip-text bg-[length:200%_200%] animate-gradient-flow font-medium`}>Austin Bowers</span> —
+                    a UI/UX designer and front-end developer with over seven years of experience crafting user interfaces, websites, and admin dashboards across diverse business environments. I also bring a strong background in freelance work, building websites and digital media for artists and small businesses.
                 </p>
                 <div
                     style={{opacity: `${100 + (scrollY / -1)}` + `%`}}
-                    className={`mt-16 text-gray-300 inline-flex rounded-full px-6 transition duration-500`}
+                    className={`text-slate-600 flex justify-center rounded-full px-6 transition duration-500 `}
                 >
                     Scroll to Learn More
                 </div>

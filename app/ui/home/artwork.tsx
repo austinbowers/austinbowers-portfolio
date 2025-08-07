@@ -82,11 +82,11 @@ export default function Dashboards() {
                             />
                         </div>
                         <div
-                            className={`lg:hidden absolute w-[600px] h-[350px] blur-3xl safari-blur-fix will-change-auto bg-blue-500 rounded-full z-[15] right-0 inset-y-0`}>
+                            className={`lg:hidden absolute w-[600px] h-[350px] blur-3xl bg-gradient-to-r from-amber-500 to-purple-500 text-transparent bg-[length:100%_100%] animate-gradient-flow rounded-full z-[15] right-0 inset-y-0`}>
 
                         </div>
                         <div
-                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl safari-blur-fix will-change-auto opacity-25 bg-blue-500 rounded-full z-[35] left-24 inset-y-0`}>
+                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl bg-gradient-to-r from-purple-500-500 to-blue-500 text-transparent bg-[length:100%_100%] animate-gradient-flow rounded-full z-[35] left-24 inset-y-0`}>
 
                         </div>
                     </div>
@@ -127,11 +127,11 @@ export default function Dashboards() {
                     />
                 </div>
                 <div
-                    className={`hidden lg:block absolute w-[700px] h-[700px] blur-3xl safari-blur-fix will-change-auto bg-blue-500 rounded-full z-[9] -right-6 inset-y-0`}>
+                    className={`hidden lg:block absolute w-[700px] h-[700px] blur-3xl bg-gradient-to-r from-amber-500 to-purple-500 text-transparent bg-[length:100%_100%] animate-gradient-flow rounded-full z-[9] -right-6 inset-y-0`}>
 
                 </div>
                 <div
-                    className={`hidden lg:block absolute w-[600px] h-[600px] blur-3xl safari-blur-fix will-change-auto bg-blue-500 opacity-25 rounded-full z-[29] right-24 inset-y-0`}>
+                    className={`hidden lg:block absolute w-[600px] h-[600px] blur-3xl bg-gradient-to-r from-purple-500-500 to-blue-500 text-transparent bg-[length:100%_100%] animate-gradient-flow opacity-25 rounded-full z-[29] right-24 inset-y-0`}>
 
                 </div>
             </div>

@@ -27,14 +27,20 @@ export default function BasicForm() {
             .then(response => {
                 if (response.code === 200) {
                     setSuccess('Thank you for reaching out, I will get back to you as soon as possible.');
+                    setTimeout(() => setSuccess(''), 5000);
+                    setName('')
+                    setEmail('')
+                    setMessage('')
                 }
                 else if(response.code === 422){
                     // Field validation failed
                     setError(response.message)
+                    setTimeout(() => setError(''), 5000);
                 }
                 else {
                     // other error from formcarry
                     setError(response.message)
+                    setTimeout(() => setError(''), 5000);
                 }
             })
             .catch(error => {
@@ -67,7 +73,7 @@ export default function BasicForm() {
 
             <div className="formcarry-block mb-6">
                 <label
-                    className={`block mb-2 text-sm font-medium text-gray-900 text-gray-300`}
+                    className={`block mb-2 text-sm font-medium text-gray-300`}
                     htmlFor="message">Your message</label>
                 <textarea
                     rows={6}
@@ -75,15 +81,20 @@ export default function BasicForm() {
                     value={message} onChange={(e) => setMessage(e.target.value)} id="message" placeholder="Enter your message..."></textarea>
             </div>
 
-            <div className="formcarry-block text-center relative">
-                {error && <p className="error-message">{error}</p>}
-                {!success ?
-                <button
-                    className={`text-white border border-blue-500 rounded-full px-6 py-2`}
-                    type="submit">Send</button>
-                : <p className="text-blue-500 bg-gray-900 rounded-md px-6 py-3 absolute inset-0">{success}</p>
+            <div className="formcarry-block text-center relative flex justify-center">
+                <div className="relative inline-flex items-center justify-center group">
+                    <button
+                        className={`text-white transition-colors duration-300 font-medium bg-blue-500 group-hover:bg-opacity-10 backdrop-blur-lg rounded-full px-6 py-2 relative z-10`}
+                        type="submit">Send Message
+                    </button>
+                    <div
+                        className="rounded-full bg-blue-500 group-hover:bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-[length:100%_400%] animate-gradient-flow h-[100%] w-[100%] absolute z-0"></div>
+                </div>
+                {error &&
+                    <p className="error-message text-red-200 fixed w-3/4 lg:w-1/2 top-20 z-[999] p-4 rounded-lg border backdrop-blur-sm border-slate-800 bg-slate-900 bg-opacity-75">{error}</p>}
+                {success &&
+                    <p className="text-emerald-400 fixed w-3/4 lg:w-1/2 top-20 z-[999] p-4 rounded-lg border backdrop-blur-sm border-slate-800 bg-slate-900 bg-opacity-75">{success}</p>
                 }
-
             </div>
         </form>
     )

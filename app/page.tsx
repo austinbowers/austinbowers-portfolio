@@ -18,7 +18,9 @@ export default function Home() {
             <div className="mt-48 mb-16 w-full text-slate-600 px-6"
                  id="footer">
                 <p className={`text-center text-sm`}>© {new Date().getFullYear()} Austin Bowers</p>
-                <p className={`text-center text-sm`}>Website Designed and Developed by <u className={`decoration-blue-500 text-white`}>Austin Bowers</u></p>
+                <p className={`text-center text-sm`}>Website Designed and Developed by <span
+                    className={`bg-gradient-to-r from-blue-500 to-blue-200 text-transparent bg-clip-text bg-[length:200%_200%] animate-gradient-flow font-medium`}>Austin Bowers</span>
+                </p>
             </div>
         </footer>
     </div>

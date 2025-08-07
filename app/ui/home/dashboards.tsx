@@ -106,11 +106,11 @@ export default function Dashboards() {
                             />
                         </div>
                         <div
-                            className={`lg:hidden absolute w-[600px] h-[350px] blur-3xl safari-blur-fix will-change-auto bg-blue-500 rounded-full z-[15] right-0 inset-y-0`}>
+                            className={`lg:hidden absolute w-[600px] h-[350px] blur-3xl bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-[length:200%_200%] animate-gradient-flow font-medium rounded-full z-[15] right-0 inset-y-0`}>
 
                         </div>
                         <div
-                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl safari-blur-fix will-change-auto bg-blue-500 opacity-25 rounded-full z-[35] right-24 inset-y-0`}>
+                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-[length:200%_200%] animate-gradient-flow opacity-25 rounded-full z-[35] right-24 inset-y-0`}>
 
                         </div>
                     </div>
@@ -161,11 +161,11 @@ export default function Dashboards() {
                 />
             </div>
             <div
-                className={`hidden lg:block absolute w-[700px] h-[700px] blur-3xl safari-blur-fix will-change-auto bg-blue-500 rounded-full z-[9] -right-6 inset-y-0`}>
+                className={`hidden lg:block absolute w-[700px] h-[700px] blur-3xl bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-[length:200%_200%] animate-gradient-flow  rounded-full z-[9] -right-6 inset-y-0`}>
 
             </div>
             <div
-                className={`hidden lg:block absolute w-[600px] h-[600px] blur-3xl safari-blur-fix will-change-auto bg-blue-500 opacity-25 rounded-full z-[29] right-24 inset-y-0`}>
+                className={`hidden lg:block absolute w-[600px] h-[600px] blur-3xl bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-[length:400%_200%] animate-gradient-flow  opacity-25 rounded-full z-[29] right-24 inset-y-0`}>
 
             </div>
         </section>
