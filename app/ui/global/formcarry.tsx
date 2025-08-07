@@ -59,7 +59,7 @@ export default function BasicForm() {
                     htmlFor="name">Full Name</label>
                 <input
                     required
-                    className={`shadow-sm bg-opacity-50  border  text-sm rounded-lg outline-none  block w-full p-2.5 bg-gray-800 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500 shadow-sm-light`}
+                    className={`shadow-sm bg-opacity-50  border rounded-lg outline-none  block w-full p-2.5 bg-gray-800 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500 shadow-sm-light`}
                     type="text" value={name} onChange={(e) => setName(e.target.value)} id="name" placeholder="Your first and last name" />
             </div>
 
@@ -69,7 +69,7 @@ export default function BasicForm() {
                     htmlFor="email">Your Email Address</label>
                 <input
                     required
-                    className={`shadow-sm bg-opacity-50  border  text-sm rounded-lg outline-none  block w-full p-2.5 bg-gray-800 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500 shadow-sm-light`}
+                    className={`shadow-sm bg-opacity-50  border rounded-lg outline-none  block w-full p-2.5 bg-gray-800 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500 shadow-sm-light`}
                     type="email" value={email} onChange={(e) => setEmail(e.target.value)} id="email" placeholder="john@doe.com" />
             </div>
 
@@ -80,18 +80,18 @@ export default function BasicForm() {
                 <textarea
                     required
                     rows={6}
-                    className={`shadow-sm bg-opacity-50 outline-none  border  text-sm rounded-lg  block w-full p-2.5 bg-gray-800 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500 shadow-sm-light`}
+                    className={`shadow-sm bg-opacity-50 outline-none  border rounded-lg  block w-full p-2.5 bg-gray-800 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500 shadow-sm-light`}
                     value={message} onChange={(e) => setMessage(e.target.value)} id="message" placeholder="Enter your message..."></textarea>
             </div>
 
             <div className="formcarry-block text-center relative flex justify-center">
                 <div className="relative inline-flex items-center justify-center group">
                     <button
-                        className={`text-white transition-colors duration-300 font-medium bg-blue-500 group-hover:bg-opacity-10 backdrop-blur-lg rounded-full px-6 py-2 relative z-10`}
+                        className={`text-white transition-colors duration-300 font-medium bg-blue-500 group-hover:bg-opacity-10 backdrop-blur-lg rounded-md px-4 py-2 relative z-10`}
                         type="submit">Send Message
                     </button>
                     <div
-                        className="rounded-full bg-blue-500 group-hover:bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-[length:100%_400%] animate-gradient-flow h-[100%] w-[100%] absolute z-0"></div>
+                        className="rounded-full bg-blue-500 group-hover:bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-[length:100%_100%] animate-gradient-flow h-[100%] w-[100%] absolute z-0"></div>
                 </div>
                 {error &&
                     <p className="error-message text-red-200 fixed w-3/4 lg:w-1/2 top-20 z-[999] p-4 rounded-lg border backdrop-blur-sm border-slate-800 bg-slate-900 bg-opacity-75">{error}</p>}
