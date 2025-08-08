@@ -23,7 +23,7 @@ export default function Hero() {
                 className="text-gray-200 max-w-screen-md mx-auto relative z-30"
             >
                 <div className="flex items-center mb-8">
-                    <div className="absolute top-10 sm:top-0 lg:-top-10 right-4 w-[100px] h-[200px] sm:w-[225px] sm:h-[300px] lg:w-[300] lg:h-[375px] inline-flex items-center justify-center bg-slate-900">
+                    <div className="absolute top-8 sm:top-0 lg:top-4 right-4 w-[200px] h-[200px] sm:w-[225px] sm:h-[300px] lg:w-[300] lg:h-[375px] inline-flex items-center justify-center opacity-50 bg-slate-900">
                         <img
                             src="/images/portrait_blue.jpg"
                             className="w-full h-full object-center object-cover relative z-20"
@@ -36,7 +36,7 @@ export default function Hero() {
 
                     <h1 className="h1 mb-6">
                     <span
-                        className="bg-gradient-to-r from-purple-500 to-orange-300 text-transparent bg-clip-text bg-[length:200%_100%] animate-gradient-flow">
+                        className="bg-gradient-to-r from-blue-500 to-blue-200 text-transparent bg-clip-text bg-[length:100%_200%] animate-gradient-flow">
                         Designer.
                         <br/>
                     </span>
@@ -45,7 +45,7 @@ export default function Hero() {
                         Developer.
                         </span>
                         <span
-                            className="bg-gradient-to-r from-blue-500 to-purple-500  text-transparent bg-clip-text bg-[length:200%_200%] animate-gradient-flow">
+                            className="bg-gradient-to-r from-blue-500 to-blue-200 text-transparent bg-clip-text bg-[length:100%_200%] animate-gradient-flow">
                         <br/>
                         Creator.
                     </span>

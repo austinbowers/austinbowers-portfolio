@@ -44,13 +44,11 @@ export default function Dashboards() {
                             <p className={`lead mb-2`}>Dashboard Design & Development</p>
                             <h2 className={`h2 mb-4`}>Designing & developing with purpose</h2>
                             <p className={`paragraph`}>
-                                I’ve spent a lot of time working with development teams, as well as on my own crafting
-                                admin
-                                dashboards that go above and beyond expectations.
+                                Having spent much time working in conjunction with various development teams, as well as personally designing admin dashboards, I can assure my work will meet and beat your expectations.
                             </p>
                             <div className={`mt-6 relative inline-flex`}>
                                 <div
-                                    className={`hidden lg:block absolute w-[80px] h-[80px] blur-3xl safari-blur-fix will-change-auto bg-blue-500 rounded-full z-[9] -left-9`}>
+                                    className={`hidden lg:block absolute w-[80px] h-[80px] blur-3xl bg-gradient-to-r from-purple-500 to-blue-500 bg-[length:200%_200%] animate-gradient-flow rounded-full z-[9] -left-9`}>
 
                                 </div>
                                 <div className={`relative z-20`} onClick={toggleTheme}>
