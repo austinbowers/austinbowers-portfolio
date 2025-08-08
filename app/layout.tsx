@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: "Hi, my name is Austin Bowers — a UI/UX designer and front-end developer with over seven years of experience crafting user interfaces, websites, and admin dashboards across diverse business environments. I also bring a strong background in freelance work, building websites and digital media for artists and small businesses.",
     images: [
       {
-        url: "/images/meta_thumbnail.jpg",
+        url: "/images/meta_thumbnail2.jpg",
         width: 1200,
         height: 630,
         alt: "Austin Bowers | Designer, Developer, Creator",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Austin Bowers | Designer, Developer, Creator",
     description: "Hi, my name is Austin Bowers — a UI/UX designer and front-end developer with over seven years of experience crafting user interfaces, websites, and admin dashboards across diverse business environments. I also bring a strong background in freelance work, building websites and digital media for artists and small businesses.",
-    images: ["/images/meta_thumbnail.jpg"],
+    images: ["/images/meta_thumbnail2.jpg"],
   },
 };
 
