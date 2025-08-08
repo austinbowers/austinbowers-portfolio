@@ -23,7 +23,7 @@ export default function Hero() {
                 className="text-gray-200 max-w-screen-md mx-auto relative z-30"
             >
                 <div className="flex items-center mb-8">
-                    <div className="absolute top-8 sm:top-0 lg:top-4 right-4 w-[200px] h-[200px] sm:w-[225px] sm:h-[300px] lg:w-[300] lg:h-[375px] inline-flex items-center justify-center opacity-50 bg-slate-900">
+                    <div className="absolute top-8 sm:top-0 lg:top-4 right-4 w-[150px] h-[200px] sm:w-[225px] sm:h-[300px] lg:w-[300] lg:h-[375px] inline-flex items-center justify-center opacity-50 bg-slate-900">
                         <img
                             src="/images/portrait_blue.jpg"
                             className="w-full h-full object-center object-cover relative z-20"
