@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .h1 {
-    @apply text-5xl md:text-7xl font-bold text-slate-200;
+    @apply text-4xl md:text-7xl font-bold text-slate-200;
 }
 
 .h2 {

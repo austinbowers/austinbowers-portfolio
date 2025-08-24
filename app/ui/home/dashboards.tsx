@@ -42,13 +42,13 @@ export default function Dashboards() {
                         </div>
                         <div className={`relative z-20`}>
                             <p className={`lead mb-2`}>Dashboard Design & Development</p>
-                            <h2 className={`h2 mb-4`}>Designing & developing with purpose</h2>
+                            <h2 className={`h2 mb-4`}>Designing & Developing with Purpose</h2>
                             <p className={`paragraph`}>
                                 Having spent much time working in conjunction with various development teams, as well as personally designing admin dashboards, I can assure my work will meet and beat your expectations.
                             </p>
                             <div className={`mt-6 relative inline-flex`}>
                                 <div
-                                    className={`hidden lg:block absolute w-[80px] h-[80px] blur-3xl bg-gradient-to-r from-purple-500 to-blue-500 bg-[length:200%_200%] animate-gradient-flow rounded-full z-[9] -left-9`}>
+                                    className={`hidden lg:block absolute w-[80px] h-[80px] blur-3xl bg-gradient-to-r from-blue-700 to-blue-500 bg-[length:200%_200%] animate-gradient-flow rounded-full z-[9] -left-9`}>
 
                                 </div>
                                 <div className={`relative z-20`} onClick={toggleTheme}>
@@ -104,11 +104,11 @@ export default function Dashboards() {
                             />
                         </div>
                         <div
-                            className={`lg:hidden absolute w-[600px] h-[350px] blur-3xl bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-[length:200%_200%] animate-gradient-flow font-medium rounded-full z-[15] right-0 inset-y-0`}>
+                            className={`lg:hidden absolute w-[600px] h-[350px] blur-3xl bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-[length:200%_200%] animate-gradient-flow font-medium rounded-full z-[15] right-0 inset-y-0`}>
 
                         </div>
                         <div
-                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-[length:200%_200%] animate-gradient-flow opacity-25 rounded-full z-[35] right-24 inset-y-0`}>
+                            className={`lg:hidden absolute w-[600px] h-[600px] blur-3xl bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-[length:200%_200%] animate-gradient-flow opacity-25 rounded-full z-[35] right-24 inset-y-0`}>
 
                         </div>
                     </div>
@@ -159,11 +159,11 @@ export default function Dashboards() {
                 />
             </div>
             <div
-                className={`hidden lg:block absolute w-[700px] h-[700px] blur-3xl bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-[length:200%_200%] animate-gradient-flow  rounded-full z-[9] -right-6 inset-y-0`}>
+                className={`hidden lg:block absolute w-[700px] h-[700px] blur-3xl bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-[length:200%_200%] animate-gradient-flow  rounded-full z-[9] -right-6 inset-y-0`}>
 
             </div>
             <div
-                className={`hidden lg:block absolute w-[600px] h-[600px] blur-3xl bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-[length:400%_200%] animate-gradient-flow  opacity-25 rounded-full z-[29] right-24 inset-y-0`}>
+                className={`hidden lg:block absolute w-[600px] h-[600px] blur-3xl bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-[length:400%_200%] animate-gradient-flow  opacity-25 rounded-full z-[29] right-24 inset-y-0`}>
 
             </div>
         </section>

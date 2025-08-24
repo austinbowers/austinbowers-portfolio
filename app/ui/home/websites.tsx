@@ -35,9 +35,9 @@ export default function Websites() {
                         </div>
                         <div className={`relative z-20`}>
                             <p className={`lead mb-2`}>Websites</p>
-                            <h2 className={`h2 mb-4`}>Web optimization and conversion rate improvements</h2>
+                            <h2 className={`h2 mb-4`}>Optimization & Conversion Rate Growth</h2>
                             <p className={`paragraph`}>
-                                Hands on experience increasing conversion rates by making design choices guided by understanding analytics, visitor demographics, A/B tests and more.
+                                Proven success in boosting conversion rates through data-driven design decisions, leveraging analytics, visitor demographics, A/B testing, and other performance insights.
                             </p>
                             <div className={`mt-6 relative inline-flex`}>
                                 <div

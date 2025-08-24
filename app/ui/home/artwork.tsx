@@ -33,11 +33,9 @@ export default function Dashboards() {
                         </div>
                         <div className={`relative z-20`}>
                             <p className={`lead mb-2`}>Graphic Design for Artists</p>
-                            <h2 className={`h2 mb-4`}>Custom artwork that is unique to your brand</h2>
+                            <h2 className={`h2 mb-4`}>Custom Artwork Unique to Your Brand</h2>
                             <p className={`paragraph`}>
-                                I love music and everything that drives the digital and physical art space within the
-                                industry. I’ve created websites, posters, advertisements, and album artwork for many
-                                artists, and I’m always looking to unleash more creativity.
+                                I’m all about blending music and visual art to create something that’s unmistakably yours. From websites and posters to ads and album covers, I’ve worked with artists across genres to bring their vision to life — and I’m always up for the next creative adventure.
                             </p>
                             <div className={`mt-6 relative inline-flex`}>
                                 <div

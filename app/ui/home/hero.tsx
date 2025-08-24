@@ -18,15 +18,15 @@ export default function Hero() {
     }, []);
 
     return (
-        <section id="hero" className="flex items-center justify-center h-screen min-h-[700px] px-6">
+        <section id="hero" className="flex items-center justify-center h-screen min-h-[800px] px-6">
             <div
-                className="text-gray-200 max-w-screen-md mx-auto relative z-30"
+                className="text-gray-200 max-w-screen-lg mx-auto relative z-30 lg:text-center"
             >
-                <div className="flex items-center mb-8">
-                    <div className="absolute top-8 sm:top-0 lg:top-4 right-4 w-[150px] h-[200px] sm:w-[225px] sm:h-[300px] lg:w-[300] lg:h-[375px] inline-flex items-center justify-center opacity-50 bg-slate-900">
+                <div className="flex justify-center items-center mb-6">
+                    <div className="w-32 h-32 border border-blue-500 rounded-full overflow-hidden">
                         <img
-                            src="/images/portrait_blue.jpg"
-                            className="w-full h-full object-center object-cover relative z-20"
+                            src="/images/profile_pic.jpg"
+                            className="w-full h-full object-center object-cover relative z-20 "
 
                             alt="Austin Bowers avatar"
                         />
@@ -36,24 +36,14 @@ export default function Hero() {
 
                     <h1 className="h1 mb-6">
                     <span
-                        className="bg-gradient-to-r from-blue-500 to-blue-200 text-transparent bg-clip-text bg-[length:100%_200%] animate-gradient-flow">
-                        Designer.
-                        <br/>
-                    </span>
-                        <span
-                            className="bg-gradient-to-r from-blue-500 to-blue-200 text-transparent bg-clip-text bg-[length:100%_200%] animate-gradient-flow">
-                        Developer.
-                        </span>
-                        <span
-                            className="bg-gradient-to-r from-blue-500 to-blue-200 text-transparent bg-clip-text bg-[length:100%_200%] animate-gradient-flow">
-                        <br/>
-                        Creator.
+                        className="bg-gradient-to-r from-blue-500 to-blue-200 text-transparent bg-clip-text bg-[length:100%_100%] animate-gradient-flow">
+                        Developer, Designer, & Creator
                     </span>
                     </h1>
                     <p className="paragraph mb-12 lg:mb-16">
                         Hi, my name is <span
                         className={`bg-gradient-to-r from-blue-500 to-blue-200 text-transparent bg-clip-text bg-[length:200%_200%] animate-gradient-flow font-medium`}>Austin Bowers</span> —
-                        a UI/UX designer and front-end developer with over seven years of experience crafting user
+                        a UI/UX designer and developer with over seven years of experience crafting user
                         interfaces, websites, and admin dashboards across diverse business environments. I also bring a
                         strong background in freelance work, building websites and digital media for artists and small
                         businesses.
